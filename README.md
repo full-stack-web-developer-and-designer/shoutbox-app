@@ -40,7 +40,7 @@ It’s a perfect example of real-time web functionality and a great addition to 
 ## 🛠️ Technologies Used
 
 - **HTML / CSS / JavaScript**  
-- **PHP** (backend message handling)  
+- **PHP**
 - **MySQL**  
 - **AJAX / Fetch API** for periodic message updates  
 - **Apache**
@@ -54,4 +54,99 @@ It’s a perfect example of real-time web functionality and a great addition to 
 ```bash
 git clone https://github.com/<your-username>/shoutbox-app.git
 cd shoutbox-app
+```
+
+### 2️⃣ Configure Environment
+- database settings
+
+
+### 3️⃣ Deploy to Web Server
+
+Upload the project to your hosting directory
+
+Make sure your server supports PHP
+
+Ensure write permissions if you use file-based message storage
+
+Import the SQL file (shoutit.sql)
+
+### 4️⃣ Run the App
+
+Open:
+
+http://localhost/shoutbox
+
+Or the live site, such as in my case:
+
+https://shoutbox.mirnesglamocic.com
+
+---
+
+### 🧩 Usage
+#### Posting Messages
+
+Type your message into the input field and click Send.
+Messages appear instantly on the shout wall.
+
+#### Real-Time Updates
+
+The page automatically reloads messages at short intervals, creating a real-time chat experience.
+
+---
+
+### 🔧 Customization Ideas
+
+You can enhance the Shoutbox with:
+
+- Admin panel
+
+- Moderation tools (delete messages)
+
+- Username system
+
+- Message character limits
+
+- Anti-spam features
+
+- WebSockets (for true real-time updates)
+
+- Dark mode
+
+- Rate limiting
+
+---
+
+### 🤝 Contributing
+
+Contributions and suggestions are welcome!
+
+1. Fork the repo
+
+2. Create a new branch
+
+3. Commit your changes
+
+4. Open a pull request
+
+---
+
+### 📄 License
+
+This project is free to use, modify, and share.
+
+---
+
+### 👤 Author
+
+#### Mirnes Glamočić
+🌐 Website: https://mirnesglamocic.com
+
+ 📧 Contact available on personal site
+
+---
+
+### ⭐ Acknowledgments
+
+Thanks for visiting and trying out the Shoutbox!
+Feel free to contribute or share feedback.
 
